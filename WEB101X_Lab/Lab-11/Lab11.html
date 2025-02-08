@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <tile>Lab 11</tile>
+    <script src="Lab11.js"></script>
+</head>
+
+<body>
+    <!-- mail -->
+    <form>
+        <label>Preferred email address:  
+                <input type = "email" id = "email_addr" name = "email1" value = "me@me.com" required></label><br><br>
+        <label>Repeat email address:  
+                <input type = "email" id = "email_repeat" name = "email2" required onchange = "check()"></label><br><br>
+        <input type="submit" value="Confirm Emails!" onclick="return check();">
+    </form>
+    <!-- checkbox 1 -->
+    <form>
+        Favorite Foods <br>
+        <label><input type = "checkbox" name = "food" value = "pizza"> Pizza</label><br>
+        <label><input type = "checkbox" name = "food" value = "chips"> Chips</label><br>
+        <label><input type = "checkbox" name = "food" value = "kale"> Kale</label><br>
+        <input type="submit" value="Submit">
+    </form>
+    <!-- checkbox 2  -->
+    <form action="">
+        <fieldset>
+            <legend>Form Verification</legend>
+            <label for="">First Name</label>
+            <input type="text" name="fname" id="fname" required><br>
+            <label for="">Last Name</label>
+            <input type="text" name="lname" id="lname" required><br>
+            <label for="">Nickname?</label>
+            <input type="checkbox" id="yesNick" value="yes" checked onchange="nickameFunction()"><br>
+            <div id="nick">
+                <label for="">Nickname:</label>
+                <input type="text" id="nickname" name="nickname">
+                <br>
+            </div>
+            <input type="submit" value="Verify">
+        </fieldset>
+    </form>
+</body>

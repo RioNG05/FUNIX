@@ -1,0 +1,21 @@
+body {
+    background-image: url("../images/NTL Blog.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+hr {
+    background: white;
+}
+
+.form_responsive-hr {
+    display: none;
+}
+
+.contact-form {
+    background: rgba(0, 0, 0, .6);
+    color: white;
+    margin-top: 75px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 3px grey;
+}

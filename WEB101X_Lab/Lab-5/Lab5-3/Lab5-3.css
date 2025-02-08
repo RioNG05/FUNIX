@@ -1,0 +1,26 @@
+body {
+    background-image: url("pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: #ffcc00;
+    font-size: 90px;
+    padding-left: 50%;
+}
+
+h2 {
+    color: #ff9933;
+    font-size: 36px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+section {
+    padding-left: 50%;
+    text-align: center;
+}

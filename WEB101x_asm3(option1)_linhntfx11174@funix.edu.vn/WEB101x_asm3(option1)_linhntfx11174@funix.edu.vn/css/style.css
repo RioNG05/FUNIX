@@ -1,0 +1,255 @@
+﻿/* link */
+
+a:link {
+    color: #33ccff;
+}
+
+a:visited {
+    color: #0099ff;
+}
+
+a:hover {
+    color: #6633ff;
+}
+
+a:active {
+    color: #ff4000;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* text */
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.75em;
+}
+
+p {
+    font-size: 1em;
+}
+
+pre {
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.25em;
+    color: #00ffff;
+}
+
+h2.details {
+    text-align: center;
+    color: #ffaa56;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2.contact {
+    text-indent: 20%;
+    font-family: garamond;
+    color: #56aaff;
+}
+
+h3.index {
+    text-indent: 50px;
+    word-spacing: 5px;
+    line-height: 1.8;
+}
+
+h4.contact {
+    color: #ffaaff;
+}
+
+p.special {
+    color: #ffff56;
+    line-height: 1.5;
+}
+
+p.special,
+p.normal {
+    text-indent: 75px;
+}
+
+p.thanks {
+    font-size: 1.5em;
+    color: tomato;
+}
+
+
+/* div */
+
+div.details,
+div.fix {
+    border: none;
+}
+
+div.details {
+    width: 90%;
+    margin-left: 5%;
+}
+
+div.fix {
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 75px;
+}
+
+
+/* body */
+
+body {
+    background-color: #151515;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    margin: 0px;
+}
+
+
+/* header */
+
+header.ams {
+    border-style: outset;
+    border-radius: 10px;
+    width: 250px;
+    margin: 10px;
+    background-image: url("../images/NTL Blog.gif");
+    background-size: cover;
+}
+
+
+/* nav */
+
+.navbar {
+    overflow: hidden;
+    background-color: #888888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #151515;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropblog {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.blog-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.blog-content .header {
+    background: tomato;
+    padding: 2px;
+    color: white;
+    text-align: center;
+}
+
+.dropdown:hover .blog-content {
+    display: block;
+}
+
+.row {
+    float: right;
+    width: 100%;
+    padding: 5px;
+    background-color: #ccc;
+}
+
+.row:hover {
+    background-color: #ddd;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* main */
+
+main.details {
+    padding-left: 50px;
+    padding-right: 150px;
+}
+
+main.about {
+    text-align: center;
+}
+
+
+/* article */
+
+article.index {
+    background-color: #1c1c1c;
+    width: 75%;
+    height: 320px;
+    border: 2px dashed #33ccff;
+    padding: 5px;
+    margin: 75px;
+}
+
+
+/* footer */
+
+footer {
+    font-family: serif;
+}
+
+
+/* hr */
+
+hr.contact {
+    border-color: #ffaaff;
+    width: 150px;
+    margin-left: 20%
+}
+
+div.information {
+    margin-left: 25%;
+    width: 50%;
+}

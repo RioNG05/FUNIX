@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgb(225, 220, 220), -5px -5px 5px rgb(225, 220, 220);
+}
+
+th,
+td {
+    text-align: center;
+    padding: 25px;
+    opacity: 0.8;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+tr {
+    border-bottom: 2px solid #ccc;
+}
+
+.spe {
+    text-align: left;
+}
+
+.dif {
+    border-bottom: 2px solid #069274;
+}
+
+tr:hover {
+    opacity: 0.5;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(233, 229, 229);
+    color: #069274
+}
+
+th {
+    background-color: #069274;
+    color: white;
+}

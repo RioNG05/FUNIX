@@ -1,0 +1,114 @@
+@media screen and (max-width: 63.9375em) {
+    .nav_mobile-button-open {
+        display: block;
+    }
+    .change {
+        display: none;
+    }
+    .nav {
+        display: flex;
+    }
+    .aside {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 46.1875em) {
+    /* text */
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.25em;
+    }
+    h4 {
+        font-size: 1em;
+    }
+    h5 {
+        font-size: 0.75em;
+    }
+    h6 {
+        font-size: 0.5em;
+    }
+    p {
+        font-size: 0.75em;
+    }
+    /* main */
+    .article_product {
+        flex-direction: column;
+    }
+    .article_product {
+        display: flex;
+        border: 2px solid #301f08;
+        margin: 5%
+    }
+    .article_product-img_1,
+    .article_product-img_2,
+    .article_product-img_3 {
+        position: relative;
+        margin: 2%;
+        width: 92%;
+    }
+    .article_product-info {
+        position: relative;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+    .brand-phone {
+        display: inline;
+    }
+    .form_responsive-hr {
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    /* text */
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.25em;
+    }
+    h5 {
+        font-size: 1em;
+    }
+    h6 {
+        font-size: 0.75em;
+    }
+    p {
+        font-size: 1em;
+    }
+    /* main */
+    .article_product {
+        display: flex;
+        border: 2px solid #301f08;
+        margin: 5% 10%;
+    }
+    .article_product-img_1 {
+        width: 25%;
+    }
+    .article_product-img_2 {
+        width: 30%;
+    }
+    .article_product-img_3 {
+        width: 35%;
+    }
+    .brand-phone {
+        display: none;
+    }
+}

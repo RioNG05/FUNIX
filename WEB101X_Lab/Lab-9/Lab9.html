@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <tile>Lab 9</tile>
+</head>
+
+<body>
+    <script>
+        //Thực hành với Array
+        console.log("Thực hành với Array");
+        //Khai báo và khởi tạo giá trị cho mảng
+        console.log("Khai báo và khởi tạo giá trị cho mảng");
+        var myArray = ["age", 16];
+        console.log(myArray[0], myArray[1]);
+        //Truy cập phần tử 
+        console.log("Truy cập phần tử ");
+        var myArray = [50, 60, 70];
+        var myData = myArray[0];
+        console.log(myData);
+        //Thay đổi phần tử
+        console.log("Thay đổi phần tử");
+        var myArray = [18, 64, 99];
+        myArray[0] = 45;
+        console.log(myArray[0], myArray[1], myArray[2]);
+        //Thao tác thêm bớt các phần tử
+        console.log("Thao tác thêm bớt các phần tử");
+        //bài 1
+        console.log("bài 1");
+        var myArray = [
+            ["John", 23],
+            ["cat", 2],
+        ];
+        myArray.push(["dog", 3]); // đẩy vào cuối mảng
+        console.log(myArray);
+        //bài 2
+        console.log("bài 2");
+        myArray = [
+            ["John", 23],
+            ["cat", 2]
+        ];
+        var removedFromArray = myArray.pop(); // xoá mục cuối cùng của mảng
+        console.log(removedFromArray);
+        console.log(myArray);
+        //bài 3
+        console.log("bài 3");
+        myArray = [
+            ["John", 23],
+            ["dog", 3]
+        ];
+        var removedFromArray = myArray.shift(); // xoá phần tử đầu tiên của mảng
+        console.log(myArray);
+        console.log(removedFromArray);
+        //bài 4;
+        console.log("bài 4");
+        myArray = [
+            ["John", 23],
+            ["dog", 3]
+        ];
+        myArray.shift();
+        myArray.unshift(["Paul", 35]); // thêm phần tử vào đầu mảng
+        console.log(myArray);
+
+        //Thực hành với for   
+        console.log("Thực hành với for");
+        //bài 1
+        console.log("bài 1");
+        var myArray = [];
+        for (var i = 0; i < 5; i++) {
+            myArray.push(i + 1);
+            console.log(myArray[i]);
+        }
+        //bài 2
+        console.log("bài 2");
+        var myrArray = [];
+        for (var i = 1; i < 11; i += 2) {
+            myArray.push(i);
+            console.log(myArray[i]);
+        }
+        //bài 3
+        console.log("bài 3");
+        var myArray = [];
+        for (var i = 9; i >= 1; i -= 2) {
+            myArray.push(i); // 
+            console.log(i);
+        }
+        //bài 4
+        console.log("bài 4");
+        var myArray = [2, 3, 4, 5, 6];
+        var total = 0;
+        for (var i = 0; i < myArray.length; i++) {
+            total += myArray[i];
+        }
+        console.log(total);
+
+        //Thực hành với while
+        console.log("vòng while");
+        var myArray = [];
+        var i = 5;
+        while (i >= 0) {
+            myArray.push(i);
+            console.log(i);
+            i--;
+        }
+
+        //Thực hành với do-while
+        console.log("vòng do-while");
+        var myArray = [];
+        var i = 10;
+        do {
+            myArray.push(i);
+            i++;
+        } while (i < 11);
+        console.log(myArray[0]);
+
+        //Vòng lặp lồng nhau
+        console.log("Vòng lặp lồng nhau");
+        var arr = [
+            [1, 2],
+            [3, 4],
+            [5, 6, 7]
+        ];
+
+        function multiplyAll(arr) {
+            var product = 1;
+            for (var i = 0; i < arr.length; i++) {
+                for (var j = 0; j < arr[i].length; j++) {
+                    product *= arr[i][j];
+                }
+            }
+            return product;
+        }
+        console.log(multiplyAll(arr));
+
+        //Các hàm thao tác với mảng
+        var myArray1 = ["Nguyen", "Thao"];
+        var myArray2 = ["Linh"];
+        var myArray = myArray1.concat(myArray2); // gộp 2 hoặc nhiều mảng với nhau
+        console.log(myArray);
+        var myName = myArray.join(); // chuyển và gộp các phần tử mảng thành string
+        console.log(myName);
+        var reName = myArray.reverse().join(); // đảo ngược mảng
+        console.log(reName);
+        var sortArray = myArray.sort(); // sắp xếp mảng
+        console.log(sortArray);
+    </script>
+</body>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <tile>Lab 8</tile>
+</head>
+
+<body>
+    <script>
+        //Viết hàm
+        console.log("Viết hàm");
+
+        function functionName() {
+            console.log('Hi World');
+        }
+        functionName();
+
+        //Đầu vào của hàm
+        console.log("Đầu vào của hàm");
+
+        function functionWithArgs(n1, n2) {
+            return n1 + n2;
+        }
+        console.log(functionWithArgs(1, 2));
+        console.log(functionWithArgs(7, 9));
+
+        //Đầu ra của hàm 
+        console.log("Đầu ra của hàm");
+
+        function timesFive(num) {
+            return num * 5;
+        }
+        console.log(timesFive(5));
+        console.log(timesFive(2));
+        console.log(timesFive(0));
+
+        //Hàm không trả về giá trị
+        console.log("Hàm không trả về giá trị");
+        var sum = 0;
+
+        function addThree() {
+            sum += 3;
+        }
+
+        function addFive() {
+            sum += 5;
+        }
+        addThree();
+        addFive();
+        console.log(sum);
+        console.log(addFive());
+
+        //Nhận kq từ kq trả về
+        console.log("Nhận kq từ kq trả về");
+        var processed = 0;
+
+        function processArg(num) {
+            return (num + 3) / 5;
+        }
+        var processed = processArg(7);
+        console.log(processed);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head> 
+    <meta charset = "utf-8">
+    <tile> Bad JavaScript </tile>
+</head>
+<body>
+    <br>
+    <script>
+        alert("Oops, I forgot to include quotes at the end right here...");
+
+    //Các phép toán cộng, trừ, nhân và chia hai số
+        var sum = 10 + 10;
+        console.log( sum );   //tổng
+        var difference = 45 - 33;
+        console.log( difference );   //hiệu
+        var product = 8 * 10;
+        console.log( product );   //tích
+        var quotient = 66 / 33;
+        console.log( quotient );   //thương
+    
+    //Phép toán tăng giảm giá trị
+        var myVar = 87;
+        myVar++;
+        console.log( myVar );   //tăng
+        var myVar = 11;
+        myVar--;
+        console.log( myVar );   //giảm
+
+    //Phép toán trên số thập phân
+        var ourDecimal = 5.7;
+        console.log( ourDecimal );   //số thập phân
+        var product = 2.0 * 2.5;
+        console.log( product );   //tích 2 số thập phân
+        var quotient = 4.4 / 2.0;
+        console.log( quotient );   //thương 2 số thập phân
+
+    //Phép toán chia lấy phần nguyên
+        var remainder = 11 % 3;
+        console.log( remainder );   //dư
+    
+    //Các phép gán mở rộng
+        var a = 3; b = 17; c = 12;
+        a += 12; 
+        b += 9; 
+        c += 7;
+        console.log( a, b, c );   //cộng
+        var a = 11; b = 9; c = 3;
+        a -= 6;
+        b -= 15;
+        c -= 1;
+        console.log( a, b, c );   //trừ
+        var a = 5; b = 12; c = 4.6;
+        a *= 5;
+        b *= 3;
+        c *= 10;
+        console.log( a, b, c );   //nhân
+        var a = 48; b = 108; c = 33;
+        a /= 12;
+        b /= 4;
+        c /= 11;
+        console.log( a, b, c );   //chia  
+
+    //Các phép toán và biểu thức trên chuỗi
+        var myStr = "This is the start." + " This is the end";
+        console.log( myStr );   //toán tử +
+        var myStr = "This is the first sentence. ";
+        myStr += "This is the second sentence.";
+        console.log( myStr );   //toán tử +=
+        var myName = "Ken ";
+        myStr = "My name is " + myName + "and I am well!";
+        console.log( myStr );   //xây chuỗi
+        var someAdjective = "interesting";
+        var myStr = "Learning to code is ";
+        myStr += someAdjective;
+        console.log( myStr );   //nối biến
+        var lastNameLength = 0;
+        var lastName = "Lovelace";
+        lastNameLength = lastName.length;
+        console.log( lastNameLength );   //độ dài chuỗi
+    </script>
+</body>
+</html>
