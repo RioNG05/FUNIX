@@ -1,0 +1,10 @@
+image = new SimpleImage("flowers.jpg");
+
+for (pixel: image) {
+  if (pixel.getX() > image.getWidth()/2) {
+    pixel.getGreen();
+    pixel.setGreen(0);
+  }
+}
+
+print(image);
